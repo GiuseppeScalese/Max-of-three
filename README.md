@@ -8,4 +8,3 @@ When the array has negative numbers the product of the biggest three values isnâ
 To address this, multiply the smallest two integers by the largest integer. Then compare the product of the three largest numbers with the previous result. Any of the two products will be the biggest product.
 
 # Max-of-three
-# Max-of-three
