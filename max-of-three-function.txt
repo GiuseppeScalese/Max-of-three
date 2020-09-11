@@ -1,0 +1,12 @@
+//just add your own numbers in the array to test the function and check the browser console for results
+
+let array = [5, 2, 3, 1];
+let result = maxProductOfThree(array);
+console.log( result );
+
+function maxProductOfThree (array) {
+  array.sort(function(a, b) {return a-b});
+  var product1 = array[array.length - 3] * array[array.length - 2] * array[array.length - 1];
+  var product2 = array[0] * array[1] * array[array.length - 1];
+  return Math.max(product1, product2);
+}
