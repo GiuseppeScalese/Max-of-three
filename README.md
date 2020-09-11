@@ -1,7 +1,7 @@
 How to run the project:
 add your own numbers in the array to test the function and check the browser console for results.
 
-What is does:
+What it does:
 an array of integers (any length) is passed through the function which will calculate the biggest product given all of those numbers. 
 The array will be sorted and then it will multiply the last three digits to then return the result.
 When the array has negative numbers the product of the biggest three values isn’t the largest product at times. 
